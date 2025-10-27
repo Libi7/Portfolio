@@ -177,7 +177,7 @@ header {
   padding:10px 1px;
 }
 
-.card, .bannner, .cardcar, .card0{
+.card, .bannner, .cardcar, .card0, .cardbird{
   background: #0d1b2a;
   border-radius: 15px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
@@ -189,6 +189,12 @@ header {
 .card:hover {
       transform: translateY(-5px);
     }
+
+
+.cardbird:hover {
+      transform: translateY(-5px);
+    }
+
 
 .bannner:hover {
       transform: translateY(-5px);
@@ -211,6 +217,15 @@ header {
       margin-top: 1rem;
     }
 
+.cardbird img {
+      
+      width: 120px;
+      height: 150px;
+      object-fit: cover;
+      margin-top: 1rem;
+    }
+
+
 .cardcar img{
   width: 120px;
   height: 150px;
@@ -227,14 +242,13 @@ header {
 }
 
 .bannner img{
-  padding: 11.7px;
-  width: 254px;
-  height: 90px;
+  padding: 16px;
+  height: 4.59rem;
   object-fit: cover;
 }
 
 
-.card h3 {
+.card h3, .cardbird h3 {
       color: #00b4d8;
       text-align: center;
       margin-top: 0.9rem;
@@ -254,12 +268,23 @@ header {
 
 
 .bannner h3{
-      margin-top: 5rem;
+      margin-top: 5.3rem;
       color: #00b4d8;
       text-align: center;
 }
 
 .card p {
+      margin-top: 0.1rem;
+      margin-bottom: 0.5rem;
+      color: #00b4d8;
+      font-size: 0.8rem;
+      text-align: center;
+      margin-left: 0.2rem;
+      margin-right: o.2rem;
+}
+
+
+.cardbird p {
       margin-top: 0.1rem;
       margin-bottom: 0.5rem;
       color: #00b4d8;
