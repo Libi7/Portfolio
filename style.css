@@ -80,21 +80,20 @@ header {
     }
 
 .about-section {
-  padding: 0.01rem 2rem;
+  padding: 2rem 2rem;
 }
 
 .about-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 9px;
+  gap: 20px;
   max-width: 1000px;
   margin: auto;
   flex-wrap: wrap;
 }
 
 .about-image img {
-  margin-bottom: 15rem;
   width: 220px;
   height: 220px;
   border-radius: 50%;
@@ -114,12 +113,11 @@ header {
 }
 
 .about h1{
-  margin-top: 1.5rem;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.5rem;
 }
 
 .about h3{
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -138,9 +136,15 @@ header {
   color: white;
   display: inline-block;
   padding: 8px 15px;
-  margin-bottom: 14.5rem;
+  margin-bottom: 0.5rem;
   border-radius: 20px;
   font-size: 14px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  transition:ease-out 0.5s;
+}
+
+.skills-list li:hover{
+  transform: translateY(-5px);
 }
 
 .project{
